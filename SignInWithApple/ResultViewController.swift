@@ -25,6 +25,7 @@ class ResultViewController: UIViewController {
         signoutButton.addTarget(self, action: #selector(handleSignout), for: .touchUpInside)
     }
     
+    // set frames of the button
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
